@@ -14,7 +14,7 @@ public class DbUtil {
     else {
     	try {
             Class.forName("com.mysql.jdbc.Driver");
-       		 connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbphonemanager?useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false", "root", "Password");
+       		 connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbphonemanager?useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false", "root", "pass");
 
     	}catch(Exception e) {
             e.printStackTrace();
